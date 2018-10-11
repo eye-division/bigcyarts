@@ -1,21 +1,21 @@
 ---
-title: Gallery 1
+title: "Collages"
 description_markdown: >-
   This is an example of a gallery with thumbnails in their original format - landscape or portrait, exactly as you upload them.
 homepage_description_markdown: >-
   This is an example of a gallery with thumbnails in their original format - landscape or portrait, exactly as you upload them. 
 frontpage: true
 gallery_date: 2016-05-01 00:00:00
-permalink: /gallery/test/
+permalink: /gallery/collages/
 archive: false
 display_title: true
 display_image: true
-main_image_path: /assets/images/e-la-nave-va_21390829511_o.jpg
-main_image_caption: "Ocean liner in Venice"
+main_image_path: /assets/images/vases.jpg
+main_image_caption: "Vases"
 thumb_crop: false
 images:
-  - image_path: /assets/images/advert-customers.jpg
-    image_title: Graveyard
+  - image_path: /assets/images/vases.jpg
+    image_title: "Vases"
     image_description_markdown: These customers didn't choose Eye Division
   - image_path: /assets/images/clevedon-pools.jpg
     image_title: Clevedon Pools

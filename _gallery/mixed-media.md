@@ -1,21 +1,21 @@
 ---
-title: Cropped gallery
+title: "Mixed Media"
 description_markdown: >-
   This is an example of a gallery with all thumbnails cropped to appear the same size. You can change this with the setting: thumb_crop
 homepage_description_markdown: >-
   This is an example of a gallery with all thumbnails cropped to appear the same size. You can change this with the setting: thumb_crop
 gallery_date: 2018-05-01 00:00:00
 frontpage: true
-permalink: /gallery/cropped/
+permalink: /gallery/mixed-media/
 display_title: true
 display_image: true
 archive: false
-main_image_path: "/assets/images/IMG_3317.jpg"
-main_image_caption: "Condensation on window"
+main_image_path: "/assets/images/fire.jpg"
+main_image_caption: "Fire"
 thumb_crop: true
 images:
-  - image_path: "/assets/images/lauder.jpg"
-    image_title: "Sky wall"
+  - image_path: "/assets/images/fire.jpg"
+    image_title: "Fire"
     image_description_markdown: sky wall
   - image_path: "/assets/images/advert-customers.jpg"
     image_title: "Graveyard"
