@@ -1,10 +1,10 @@
 ---
 layout: home
-main_image_path:
+main_image_path: "/assets/images/fire.jpg"
 main_image_caption:
 show_carousel: false
 show_blog: true
-posts_number: 2
+posts_number: 1
 carousel:
   - image: /assets/images/advert-customers.jpg
     caption: "A test caption"
@@ -14,6 +14,10 @@ carousel:
     alink:
 _options:
   layout:
+    hidden: true
+  posts_number:
+    hidden: true
+  show_blog:
     hidden: true
   main_image_path:
     width: 1200
@@ -35,20 +39,57 @@ _comments:
   alink: Optional web link from the slide
   caption: optional caption
 ---
-  {% if page.main_image_path %}
-  <!-- parallax picture please -->
-    <figure>
-    {% assign alt_text = page.title %}
-    {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
-    {% include img.html src=page.main_image_path alt=alt_text %}
-    <figcaption>{{ alt_text }}</figcaption>
-    </figure>
-  {% endif %}
 
-  <div class="editable">
-    <p>This is the demo editable first paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, in magnam placeat. Ex illo ipsa libero voluptatem necessitatibus modi fugit odit omnis. Sequi voluptatem mollitia voluptatum ipsum placeat, quaerat laudantium!</p>
+
+<section class="blog blog--home">
+
+  <div class="flex-sixty">
+
+    {% if page.main_image_path %}
+    <!-- parallax picture please -->
+      <figure>
+      {% assign alt_text = page.title %}
+      {% if page.main_image_caption %} {% assign alt_text = page.main_image_caption %} {% endif %}
+      {% include img.html src=page.main_image_path alt=alt_text %}
+      <figcaption>{{ alt_text }}</figcaption>
+      </figure>
+    {% endif %}
+
+
+    <div class="editable">
+      <p>This is the demo editable first paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, in magnam placeat. Ex illo ipsa libero voluptatem necessitatibus modi fugit odit omnis. Sequi voluptatem mollitia voluptatum ipsum placeat, quaerat laudantium!</p>
+
+    </div>
 
   </div>
+
+  {% if page.show_blog %}
+
+    <div class="blog--excerpt flex-forty">
+
+      <div class="editable">
+        <h2 class="mb0">BigCyArts news</h2>
+      </div>
+
+      <ul class="posts--list">
+
+        {% for post in site.posts limit:page.posts_number %}
+
+         {% unless post.categories contains 'Archive' %}
+
+          {% include post_excerpt_home.html %}
+
+        {% endunless %}
+
+        {% endfor %}
+
+      </ul>
+      <p><a href="/news/">Read all news&nbsp;&raquo;</a></p>
+    </div>
+
+    {% endif %}
+
+  </section>
 
     {% if page.show_carousel and page.carousel %}
     <section class="slideshow">
@@ -132,28 +173,3 @@ _comments:
     {% endfor %}
 
 
-{% if page.show_blog %}
-
-    <section class="blog blog--home">
-
-      <div class="editable">
-        <h2>Latest news</h2>
-      </div>
-
-      <ul class="posts--list">
-
-        {% for post in site.posts limit:page.posts_number %}
-
-         {% unless post.categories contains 'Archive' %}
-
-          {% include post_excerpt.html %}
-
-        {% endunless %}
-
-        {% endfor %}
-
-      </ul>
-      <p><a href="/news/">Read all news&nbsp;&raquo;</a></p>
-
-    </section>
-    {% endif %}

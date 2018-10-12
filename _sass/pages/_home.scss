@@ -25,3 +25,23 @@
         padding-right: 60px;
     }
 }
+
+.blog--home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog--excerpt {
+    padding: 0 1em;
+}
+// grid stuff
+@supports (display: grid) {
+
+  @include grid-media($large) {
+    .home--excerpt {
+      display: block;
+      //grid-template-columns: 1fr 2fr;
+      //grid-gap: 1rem;
+    }
+  }
+}

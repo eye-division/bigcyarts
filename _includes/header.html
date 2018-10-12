@@ -4,11 +4,10 @@
     <a href="{{ site.baseurl }}/" class="header--wrapper" title="Return home">
 
       {% if site.logo and site.show_logo %}
-        {% include img.html src=site.logo width=150 class="header--logo" alt=site.title %}
+        {% include img.html src=site.logo width=600 class="header--logo" alt=site.title %}
+      {% else %}
+        <h1 class="header--title">{{ site.title }}</h1>
       {% endif %}
-
-      <h1 class="header--title">{{ site.title }}</h1>
-
     </a>
 
     <a href="javascript:void(0)" class="navigation--menu-button" id="js--mobile-menu">
@@ -28,24 +27,27 @@
           {% endunless %}
 
         {% endfor %}
+        {% if site.show_social_top %}
+          {% for social in site.social %}
+
+            {% if social.url != null %}
+
+            <li class="nav--link nav--social-media-link">
+              <a href="{{ social.url }}" title="{{ social.desc }}">
+                <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
+              </a>
+            </li>
+            {% endif %}
+
+          {% endfor %}
+        {% endif %}
 
       </ul>
 
     {% if site.show_social_top %}
 
       <ul class="navigation--social-menu">
-        {% for social in site.social %}
 
-          {% if social.url != null %}
-
-          <li class="nav--link nav--social-media-link">
-            <a href="{{ social.url }}" title="{{ social.desc }}">
-              <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
-            </a>
-          </li>
-          {% endif %}
-
-        {% endfor %}
 
       </ul>
 

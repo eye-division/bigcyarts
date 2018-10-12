@@ -1,18 +1,18 @@
 ---
 title: "Collages"
 description_markdown: >-
-  This is an example of a gallery with thumbnails in their original format - landscape or portrait, exactly as you upload them.
+  Collages by BigCyArt
 homepage_description_markdown: >-
-  This is an example of a gallery with thumbnails in their original format - landscape or portrait, exactly as you upload them. 
+  Collages by BigCyArt 
 frontpage: true
 gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/collages/
 archive: false
 display_title: true
-display_image: true
+display_image: false
 main_image_path: /assets/images/vases.jpg
 main_image_caption: "Vases"
-thumb_crop: false
+thumb_crop: true
 images:
   - image_path: /assets/images/vases.jpg
     image_title: "Vases"
@@ -20,15 +20,7 @@ images:
   - image_path: /assets/images/clevedon-pools.jpg
     image_title: Clevedon Pools
     image_description_markdown: Experience an ocean of bliss
-  - image_path: /assets/images/advert-impregnable.jpg
-    image_title: Fortress
-    image_description_markdown: Your site is our impregnable fortress
-  - image_path: '/assets/images/Keen of Hamar, Unst.jpg'
-    image_title: Test resized image
-    image_description_markdown: Test resized
-  - image_path: '/assets/images/Keen of Hamar, Unst.jpg'
-    image_title: Resized to 600
-    image_description_markdown: Resized to 600 square max
+
 _options:
   image_path:
     width: 1200

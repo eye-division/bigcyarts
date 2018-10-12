@@ -1,0 +1,27 @@
+<li class="post--inlist home--excerpt">
+
+    <div class="post--content flex-full">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post--title">
+        <h4 class="mb0">{{ post.title }}</h4>
+      </a>
+      <div class="post--meta small">
+        <span class="post--date">{{ post.post_date  | date: "%-d %B %Y" }}</span>
+        <!-- Editor Link -->
+        <a href="cloudcannon:collections/{{ post.path }}" class="editor-link">Edit post</a>
+      </div>
+      <p>
+      {{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | prepend: site.baseurl }}">read more&nbsp;&raquo;</a>
+
+      {% if site.disqus_shortname %}
+
+        {% if post.comments %}
+          <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"></a>
+
+        {% endif %}
+
+      {% endif %}
+      </p>
+
+    </div>
+
+  </li>

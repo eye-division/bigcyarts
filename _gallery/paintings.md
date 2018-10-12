@@ -1,14 +1,14 @@
 ---
 title: "Paintings"
 description_markdown: >-
-  This is an example of a gallery with all thumbnails cropped to appear the same size. You can change this with the setting: thumb_crop
+  Paintings by BigCyArts
 homepage_description_markdown: >-
-  This is an example of a gallery with all thumbnails cropped to appear the same size. You can change this with the setting: thumb_crop
+  Paintings by BigCyArts
 gallery_date: 2018-05-01 00:00:00
 frontpage: true
 permalink: /gallery/paintings/
 display_title: true
-display_image: true
+display_image: false
 archive: false
 main_image_path: "/assets/images/painting.jpg"
 main_image_caption: "Sample painting"
@@ -23,15 +23,7 @@ images:
   - image_path: "/assets/images/clevedon-pools.jpg"
     image_title: "Clevedon Pools"
     image_description_markdown: Experience an ocean of bliss
-  - image_path: "/assets/images/advert-impregnable.jpg"
-    image_title: "Fortress"
-    image_description_markdown: Your site is our impregnable fortress
-  - image_path: "/assets/images/Keen of Hamar, Unst.jpg"
-    image_title: "Test resized image"
-    image_description_markdown: Test resized
-  - image_path: '/assets/images/Keen of Hamar, Unst.jpg'
-    image_title: "Resized to 600"
-    image_description_markdown: "Resized to 600 square max"
+
 _options:
   image_path:
     width: 1200
