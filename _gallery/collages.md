@@ -11,7 +11,7 @@ permalink: /gallery/collages/
 archive: false
 display_title: true
 display_image: true
-main_image_path:
+main_image_path: /uploads/img-0076.JPG
 main_image_caption: Vases
 thumb_crop: true
 images:
