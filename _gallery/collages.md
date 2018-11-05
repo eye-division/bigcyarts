@@ -15,14 +15,8 @@ main_image_path:
 main_image_caption: Vases
 thumb_crop: true
 images:
-  - image_path: /assets/images/vases.jpg
-    image_title: Vases
-    image_description_markdown: These customers didn't choose Eye Division
-  - image_path: /uploads/img-0099.JPG
-    image_title: Clevedon Pools
-    image_description_markdown: Experience an ocean of bliss
-  - image_path: /uploads/img-0066.JPG
-    image_title: abstract
+  - image_path:
+    image_title:
     image_description_markdown:
   - image_path:
     image_title:
