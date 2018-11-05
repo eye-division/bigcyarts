@@ -18,7 +18,7 @@ images:
   - image_path: /assets/images/advert-customers.jpg
     image_title: Graveyard
     image_description_markdown: These customers didn't choose Eye Division
-  - image_path: /assets/images/clevedon-pools.jpg
+  - image_path: /uploads/img-0167.JPG
     image_title: Clevedon Pools
     image_description_markdown: Experience an ocean of bliss
 _options:
