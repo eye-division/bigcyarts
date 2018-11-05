@@ -12,7 +12,7 @@ archive: false
 display_title: true
 display_image: true
 main_image_path: /uploads/img-0076.JPG
-main_image_caption: Alway work to be done !
+main_image_caption: Always work to be done !
 thumb_crop: true
 images:
   - image_path:
