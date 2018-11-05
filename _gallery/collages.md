@@ -15,7 +15,7 @@ main_image_path: /uploads/img-0076.JPG
 main_image_caption: Always work to be done !
 thumb_crop: true
 images:
-  - image_path:
+  - image_path: /uploads/img-0071-1.JPG
     image_title:
     image_description_markdown:
   - image_path:
