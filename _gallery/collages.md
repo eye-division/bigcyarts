@@ -21,6 +21,9 @@ images:
   - image_path: /assets/images/clevedon-pools.jpg
     image_title: Clevedon Pools
     image_description_markdown: Experience an ocean of bliss
+  - image_path: /uploads/img-0066.JPG
+    image_title: abstract
+    image_description_markdown:
 _options:
   image_path:
     width: '1200'
