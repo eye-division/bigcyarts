@@ -30,6 +30,9 @@ images:
   - image_path:
     image_title:
     image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
 _options:
   image_path:
     width: '1200'
