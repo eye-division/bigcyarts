@@ -24,6 +24,18 @@ images:
   - image_path: /uploads/img-0066.JPG
     image_title: abstract
     image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
 _options:
   image_path:
     width: '1200'
