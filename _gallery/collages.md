@@ -4,7 +4,7 @@ description_markdown: |-
   Collages by Bigcyarts
 
   &nbsp;
-homepage_description_markdown: Collages by BigCyArt
+homepage_description_markdown: Collages by Bigcyarts
 frontpage: true
 gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/collages/
