@@ -10,11 +10,26 @@ gallery_date: 2016-05-01 00:00:00
 permalink: /gallery/collages/
 archive: false
 display_title: true
-display_image: false
+display_image: true
 main_image_path:
 main_image_caption: Vases
 thumb_crop: true
 images:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
   - image_path:
     image_title:
     image_description_markdown:
