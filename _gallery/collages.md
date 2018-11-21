@@ -17,84 +17,22 @@ thumb_crop: true
 images:
   - image_path: /uploads/img-0071-1.JPG
     image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
+    image_description:
 _options:
   image_path:
-    width: '1200'
-    height: '1200'
+    uploads_dir: "assets/images/:year"
+    width: 1200
+    height: 1200
     resize_style: contain
     mime_type: image/jpeg
   main_image_path:
-    width: '1200'
-    height: '800'
+    uploads_dir: "assets/images/:year"
+    width: 1200
+    height: 1200
     resize_style: contain
     mime_type: image/jpeg
+  content:
+    uploads_dir: "assets/:year"
 _comments:
   title: Gallery title
   permalink: Be careful editing this
@@ -102,7 +40,7 @@ _comments:
   display_image: Show the featured image at the top of the gallery
   display_title: Show the title at the top of the page
   images: Add and edit your gallery images here
-  image_description_markdown: Might only be shown in the close up of an image
+  image_description: Might only be shown in the close up of an image
   thumb_crop: Crop thumbnail images to a consistent size
   frontpage: Show this gallery on the homepage
   homepage_description_markdown: Text used on homepage if shown

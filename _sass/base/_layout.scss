@@ -51,16 +51,17 @@ body {
     align-items: start;
   }
 }
-
-.flex-forty {
-  flex: 0 1 40%;
-}
-.flex-sixty {
-  flex: 0 1 60%;
-}
-.flex-fifty {
-  flex: 0 1 50%;
-}
-.flex-full {
-  flex: 0 1 100%;
+@include grid-media ($small) {
+  .flex-forty {
+    flex: 0 1 40%;
+  }
+  .flex-sixty {
+    flex: 0 1 60%;
+  }
+  .flex-fifty {
+    flex: 0 1 50%;
+  }
+  .flex-full {
+    flex: 0 1 100%;
+  }
 }

@@ -9,7 +9,7 @@ plugins:
    - jekyll-tagging-related_posts
 
 # Site settings
-title: "BigCyArts"
+title: "Bigcyarts"
 subtitle:
 name: "Carlos Caban"
 description: "Carlos Caban artist website"
@@ -21,7 +21,7 @@ baseurl: ""
 url: "https://www.bigcyarts.com"
 
 logo: "/assets/images/rose-logo.jpg"
-show_logo: true
+show_logo: false
 email: a.ward@eyedivision.com
 
 default_post_image: "/assets/images/road_closed.jpg"
